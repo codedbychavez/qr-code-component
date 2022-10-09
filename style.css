@@ -6,8 +6,39 @@
 }
 
 body, main {
+  background-color: #d5e1ef;
   height: 100vh;
   font-family: 'Outfit', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 24em;
+  padding: 1em;
+  border-radius: 1em;
+  /* box-shadow: .2em .2em #888888; */
+  filter: drop-shadow(.75em .75em .5em #cbd6e2);
+}
+
+.card .image-qr-code {
+  width: 100%;
+  border-radius: .5em;
+}
+
+.card__title {
+  text-align: center;
+  line-height: 110%;
+  font-size: 1.7rem;
+  color: #2b3340;
+}
+
+.card__content {
+  text-align: center;
+  line-height: 150%;
+  color: #9da0a6;
 }
 
 .attribution {
