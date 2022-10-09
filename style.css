@@ -1,11 +1,14 @@
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-body, main {
+body,
+main {
   background-color: #d5e1ef;
   height: 100vh;
   font-family: 'Outfit', sans-serif;
@@ -19,7 +22,6 @@ body, main {
   width: 24em;
   padding: 1em;
   border-radius: 1em;
-  /* box-shadow: .2em .2em #888888; */
   filter: drop-shadow(.75em .75em .5em #cbd6e2);
 }
 
